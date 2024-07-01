@@ -16,10 +16,10 @@ table.addEventListener("click", (event) => {
         inputResult.value = afterRemovingLastChar + event.target.innerHTML;
       } else {
         inputResult.value = oldValue + event.target.innerText;
-        if (oldValue[0] == "*" || oldValue[0] == "/") {
-          // ! Error Caught Ask From Sir
-          oldValue.slice(0, 1);
-        }
+        // if (oldValue[0] == "*" || oldValue[0] == "/") {
+        //   // ! Error Caught Ask From Sir
+        //   oldValue.slice(0, 1);
+        // }
       }
     }
   }
